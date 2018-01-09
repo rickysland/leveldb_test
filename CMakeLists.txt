@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 add_definitions(-DLEVELDB_PLATFORM_POSIX)
-add_definitions("-g -std=gnu++11")
+add_definitions("-g")
 project(test_leveldb)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/output/")
 
