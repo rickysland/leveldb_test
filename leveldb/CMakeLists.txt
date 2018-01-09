@@ -1,0 +1,7 @@
+include_directories ("./") 
+aux_source_directory(./port DIR_LIB_SRCS)
+aux_source_directory(./helpers/memenv DIR_LIB_SRCS)
+aux_source_directory(./table DIR_LIB_SRCS)
+aux_source_directory(./util DIR_LIB_SRCS)
+aux_source_directory(./db  DIR_LIB_SRCS)
+add_library (leveld ${DIR_LIB_SRCS})
